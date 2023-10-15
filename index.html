@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="card">
+      <div class="startState">
+        <div class="oval">
+          <img src="images/icon-star.svg" alt="">
+        </div>
+
+        <div class="heading">How did we do?</div>
+
+        <div class="text">
+          Please let us know how we did with your support request.
+          All feedback is appreciated to help us improve our offering!
+        </div>
+
+        <div class="ratings">
+          <div id="circle" class="one">1</div>
+          <div id="circle" class="two">2</div>
+          <div id="circle" class="three">3</div>
+          <div id="circle" class="four">4</div>
+          <div id="circle" class="five">5</div>
+        </div>
+
+        <div class="button">Submit</div>
+      </div>
+
+      <div class="endState">
+        <img src="images/illustration-thank-you.svg" alt="">
+
+        <div class="selectedState">
+          You selected <span class="number">#</span> out of 5
+        </div>
+
+        <div class="thankyou">Thank you!</div>
+
+        <div class="appreciate">
+          We appreciate you taking the time to give a rating. 
+          If you ever need more support, don't hesitate to get in touch!
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
